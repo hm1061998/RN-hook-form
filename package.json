@@ -1,10 +1,11 @@
 {
   "name": "rn-hook-form",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rn-hook-form",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hm1061998/RN-hook-form"
   },
   "keywords": [
     "react-native",
@@ -14,8 +15,11 @@
   "author": "ka mờ",
   "license": "ISC",
   "dependencies": {
-    "react": "18.0.0",
-    "react-hook-form": "^7.6.6",
-    "react-native": "0.69.5"
+    "react-hook-form": "^7.6.6"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.62.0",
+    "prop-types": ">=15.5.0"
   }
 }
