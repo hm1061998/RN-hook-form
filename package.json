@@ -1,6 +1,6 @@
 {
   "name": "rn-hook-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rn-hook-form",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
   "author": "ka mờ",
   "license": "ISC",
   "dependencies": {
-    "react": "",
-    "react-hook-form": "",
-    "react-native": ""
+    "react": "18.0.0",
+    "react-hook-form": "^7.6.6",
+    "react-native": "0.69.5"
   }
 }
